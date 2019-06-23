@@ -1,0 +1,26 @@
+Install Buddy:
+  1. Run
+    $ python setup.py install
+
+  or incrementally:
+    $ python setup.py build
+    $ python setup.py install
+
+  or if you don't have write permission to global site-packages directory:
+    $ python setup.py install --user
+
+Using Buddy:
+
+  To get a help text:
+    $ buddy --help
+
+  To commit a text:
+    $ buddy commit
+  
+Commands which will be implemented soon:
+
+  $ buddy log
+  $ buddy log --last-week
+
+  $ buddy todo
+  $ buddy notes
